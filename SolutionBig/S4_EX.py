@@ -10,7 +10,7 @@ while(condition==True):
     if(prompt=="no"or prompt=="NO"):
         condition=False
 
-tax= (5.6/bill) * 100
+tax= (5.6/100) * bill
 bill = bill+tax
 
 service_tax = 50
